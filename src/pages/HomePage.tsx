@@ -123,7 +123,7 @@ export default function HomePage() {
             <div className="hidden lg:block relative animate-fade-in-up animate-delay-300">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
                 <img
-                    src="/images/hero/hero-banner.jpg"
+                     src={`${import.meta.env.BASE_URL}images/hero/hero-banner.jpg`}
                     alt="Stars Academy Hero Banner"
                     className="w-full h-auto object-cover"
                     loading="eager"
